@@ -48,7 +48,7 @@ def test_search(app, skip):
 
 @allure.label('owner', 'Александр Санталов')
 @allure.feature('Тесты Wikipedia')
-@allure.title('Текс ошибки для поля "Пользователь" при вводе невалидного значения')
+@allure.title('Текст ошибки для поля "Пользователь" при вводе невалидного значения')
 def test_text_error(app, skip):
     with allure.step('Переход на экран авторизации'):
         app.element(btn_menu).click()
